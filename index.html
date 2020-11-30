@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="傾斜迷宮：迷宮球遊戲" />
+        <meta property="og:description" content="透過上下左右操作來迴轉整座關卡，透過傾斜來移動關卡中的球，玩家要將球運送到中間。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="css/tilt-maze.css" />
+        <title>傾斜迷宮：迷宮球遊戲</title>
+    </head>
+    <body>
+        <div id="center">
+            <div id="game">
+                <div id="maze">
+                    <div id="end"></div>
+                </div>
+                <div id="joystick">
+                    <div class="joystick-arrow"></div>
+                    <div class="joystick-arrow"></div>
+                    <div class="joystick-arrow"></div>
+                    <div class="joystick-arrow"></div>
+                    <div id="joystick-head"></div>
+                </div>
+                <div id="note">
+                    點擊搖桿開始！
+                    <p>將每個球移到中心。準備好使用困難模式了嗎？按下 H 鍵。</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/tilt-maze.js" defer></script>
+    </body>
+</html>
